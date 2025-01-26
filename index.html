@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Banho para Cachorros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Agendamento de Banho para Cachorros</h1>
+        <form id="booking-form">
+            <label for="name">Nome do Dono:</label>
+            <input type="text" id="name" required>
+
+            <label for="pet">Nome do Cachorro:</label>
+            <input type="text" id="pet" required>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+
+        <h2>Agendamentos</h2>
+        <ul id="booking-list"></ul>
+    </div>
+</body>
+</html>
